@@ -23,6 +23,7 @@
             <input type="text" name="item" autofocus>
             <input type="hidden" name="action" value="add">
             <input type="submit" value="Add">
+            
         </form>
         <br>
         <c:if test="${not empty List}">
